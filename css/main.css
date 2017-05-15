@@ -288,6 +288,7 @@ Début du CSS CUSTOM
 
 body{
   font-family: 'Lora', serif;
+  color:#454545;
 }
 
 .header_S{
@@ -377,3 +378,24 @@ footer div ul li a p{
 /*
 Style Blog
 **********************************************************************************************************/
+h2, h2 a{
+  color:black;
+  font-size: 24px;
+  color:#454545;
+}
+
+section img{
+  width: 100%;
+}
+
+@media (min-width:517px) {
+
+  section img{
+    width: 300px;
+  }
+
+  section .photo{
+    width: 100%
+  }
+
+}
