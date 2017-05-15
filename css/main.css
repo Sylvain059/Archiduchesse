@@ -280,3 +280,95 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+/*
+Début du CSS CUSTOM
+=====================================================================================================================
+*/
+
+body{
+  font-family: 'Lora', serif;
+}
+
+.header_S{
+  height: 50px;
+  border-bottom-color:black;
+}
+
+.iconeMenu{
+  height: 25px;
+  margin-top: 15px;
+}
+
+.listSize li{
+  display: inline-block;
+  text-align: center;
+  vertical-align: text-bottom;
+  list-style-type: none;
+  background-color: #f4f4f1;
+  border-radius: 5px;
+  height: 26px;
+  width: 62px;
+}
+
+.listSize li a{
+  width: auto;
+  text-decoration: none;
+  color:#a3a3a3;
+}
+
+/*
+mainIndex
+********************************************************************************************************/
+
+.figure{
+  height: 300px;
+  display: inline-block;
+  text-align: center;
+}
+
+.price{
+  background-color: #efeff0;
+  border-radius: 5px;
+  color: #a5a5b4;
+  font-style: italic;
+  font-family: 'Lora', serif;
+}
+
+.link{
+  color: #555579;
+  font-style: italic;
+  font-size: 16px;
+}
+
+
+
+.mainIndex figure a{
+  text-decoration: none;
+  text-align: center;
+  color:black;
+  width: 100%;
+}
+/*
+footer
+*********************************************************************************************************/
+
+footer{
+  /*fond d'écran juste pour footer*/
+  background-image: url(../img/small/bg.png);
+}
+
+footer div ul{
+  list-style-type: none; /*on retire les puce*/
+}
+
+
+footer div ul li a{
+  height: 200px;
+  color:#555579;
+}
+
+footer div ul li a p{
+  height: 200px;
+
+}
