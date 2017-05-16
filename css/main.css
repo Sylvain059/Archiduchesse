@@ -377,7 +377,15 @@ footer div ul li a p{
 
 /*
 Style Blog
+
 **********************************************************************************************************/
+
+.desktop{
+  display: none;
+}
+
+
+
 h2, h2 a{
   color:black;
   font-size: 24px;
@@ -397,5 +405,49 @@ section img{
   section .photo{
     width: 100%
   }
+
+}
+
+@media (min-width:992px) {
+
+  .mobile{
+    display:none;
+  }
+
+  .desktop{
+    display: block;
+  }
+
+  .desktop .menuDesktop {
+    list-style-type: none;
+    margin-top: 40px
+  }
+
+  .desktop .menuDesktop li{
+    display: inline-block;
+    margin: 15px;
+
+  }
+
+  .desktop .menuDesktop li a{
+    width: 100%;
+    color: #454545;
+    font-size: 1.5em;
+  }
+
+  #navmenu2 a {
+ background: transparent ;
+ font-size: 11px;
+ font-family: "Georgia",Times,serif;
+ color:#999;
+}
+#navmenu2 a em {
+ font-size: 1.42em ;
+}
+#navmenu2 li{
+ background: #E8E8E5 ;
+ border-radius: 3px 3px 0px 0px;
+ margin: 0px 5px;
+}
 
 }
