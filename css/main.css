@@ -415,7 +415,7 @@ MEDIA POUR PC
 @media (min-width:992px) {
 
 /*Disparition du menu mobile*/
-  .mobile{
+  .headerMobile{
     display:none;
   }
 
